@@ -37,9 +37,10 @@ body * {
 
 /* Estilos do container principal */
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0;
-
+  padding: 0 24px;
   /*border: 1px solid red;
   padding-top: 56px; 
   margin-right: auto;
@@ -85,12 +86,10 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
   transition: left 0.3s ease;
-
 }
 
 .light #switch button {
   left: 32px;
-  
 }
 
 #switch span {
